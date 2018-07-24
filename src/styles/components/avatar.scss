@@ -2,7 +2,14 @@
   @include centerer;
 
   .avatar-frame {
-    width: 320px;
-    animation: 10s linear infinite ring;
   }
+}
+#avatar:after {
+  background-image: url("../../images/avatar_frame.png");
+  background-size: 320px;
+  width: 320px;
+  height: 313px;
+  display: inline-block;
+  content: "";
+  animation: 10s linear infinite ring;
 }
