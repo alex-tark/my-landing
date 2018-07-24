@@ -5,7 +5,7 @@
     "Alexander Zinin <zinin.alexander21@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "http://denga.ru",
+  "homepage": "https://github.com/alex-tark/my-landing",
   "ignore": [
     "**/.*",
     "node_modules",
