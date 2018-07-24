@@ -8,8 +8,9 @@
     height: 340px;
     display: inline-block;
     content: "";
-    animation: 15s linear infinite ring;
+    animation: 25s linear infinite ring;
   }
+
   .avatar-frame:before {
     background-color: white;
     border-radius: 50%;
