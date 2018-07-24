@@ -1,0 +1,19 @@
+#personal {
+  @include centerer;
+
+  margin-top: 210px;
+  color: oldlace;
+  letter-spacing: .2em;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+
+  .personal-name {
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+
+  .personal-rank {
+    font-family: "Fty Regular", sans-serif;
+    font-size: 1em;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+}
