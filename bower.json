@@ -1,0 +1,19 @@
+{
+  "name": "my-landing",
+  "version": "1.0.0",
+  "authors": [
+    "Alexander Zinin <zinin.alexander21@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://denga.ru",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "*"
+  }
+}
