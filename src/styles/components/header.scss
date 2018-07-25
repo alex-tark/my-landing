@@ -1,12 +1,49 @@
 #header {
   @include centerer;
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 3rem;
   padding-top: 15px;
+  color: peachpuff;
 
-  i {
+  #cv {
     position: relative;
-    margin-right: 5px;
-    top: -1px;
+
+    i {
+      opacity: .7;
+      position: relative;
+      margin-right: 10px;
+      margin-left: 10%;
+    }
+
+    a {
+      position: absolute;
+      color: peachpuff;
+      top: 0;
+      opacity: 0;
+      transition: .3s ease-in opacity;
+      font-family: "Nicholsol Regular", sans-serif;
+      font-weight: 900;
+      font-size: 2.5rem;
+      letter-spacing: 0;
+    }
+
+    a::after {
+      @include normalize;
+      display: inline-block;
+      height: 300vh;
+      width: 100%;
+      cursor: pointer;
+      content: "РЕЗЮМЕ";
+    }
+  }
+
+  #cv:hover {
+    a {
+      opacity: .8;
+    }
+
+    i {
+      opacity: 1;
+    }
   }
 }
