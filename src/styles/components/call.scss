@@ -1,0 +1,21 @@
+#call-info {
+  max-width: 350px;
+  position: absolute;
+  top: 130px;
+
+  a {
+    width: 64px;
+    display: inline-block;
+    text-shadow: none;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+
+    i {
+      display: none;
+    }
+  }
+
+  a:first-child {
+    margin-left: 20px;
+  }
+}
