@@ -5,17 +5,13 @@
   padding-top: 15px;
   color: darkgrey;
 
-
-  #skills {
+  .nav-item {
     position: relative;
 
     i {
       opacity: .3;
       position: relative;
-      margin-right: 10px;
-      margin-left: 30%;
-      transition: .2s ease-in opacity;
-      text-shadow: -1px 0 darkgrey, 0 1px darkgrey, 1px 0 darkgrey, 0 -1px darkgrey;
+      transition: .6s ease-in opacity;
     }
 
     a {
@@ -28,7 +24,7 @@
       font-weight: 900;
       font-size: 2.5rem;
       letter-spacing: 0;
-      text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+      text-shadow: -1px 0 darkgrey, 0 1px darkgrey, 1px 0 darkgrey, 0 -1px darkgrey;
     }
 
     a::after {
@@ -37,18 +33,41 @@
       height: 300vh;
       width: 50vw;
       content: "";
-      margin-left: -150px;
     }
   }
 
-  #skills:hover {
-
+  .nav-item:hover {
     a {
-      opacity: .6;
+      opacity: .55;
     }
 
     i {
       opacity: 1;
+    }
+  }
+
+  #description {
+    i {
+      margin-right: 10px;
+      margin-left: 25%;
+    }
+
+    a::after {
+      margin-left: -230px;
+    }
+  }
+
+  #skills {
+    text-align: right;
+
+    i {
+      margin-right: 25%;
+    }
+
+    a {
+      float: right;
+      transform: translateX(-100%);
+      padding-right: 15px;
     }
   }
 }
