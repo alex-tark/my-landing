@@ -1,6 +1,5 @@
 #header {
-  position: fixed;
-  display: none;
+  @include centerer;
   width: 100%;
   font-size: 1.6rem;
   padding-top: 15px;
